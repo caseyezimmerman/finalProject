@@ -5,14 +5,9 @@
  */
 
 import React, { Component } from 'react';
-import {
-  Platform,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
-import Login from './components/Login'
-import Register from './components/Register'
+import { Platform, StyleSheet, Text, View } from 'react-native';
+import Login from './components/Login';
+import Register from './components/Register';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
