@@ -5,16 +5,9 @@
  */
 
 import React, { Component } from 'react';
-import {
-  Platform,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
-import Login from './components/Login'
-import Register from './components/Register'
-import ApiHost from './apiHost'
-import GoogleMap from './components/googleMap'
+import { Platform, StyleSheet, Text, View } from 'react-native';
+import Login from './components/Login';
+import Register from './components/Register';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -27,7 +20,7 @@ export default class App extends Component {
   render() {
     return (
       <View >
-        <GoogleMap />
+        <Register />
       </View>
     );
   }
