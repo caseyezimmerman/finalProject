@@ -13,6 +13,8 @@ import {
 } from 'react-native';
 import Login from './components/Login'
 import Register from './components/Register'
+import ApiHost from './apiHost'
+import GoogleMap from './components/googleMap'
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -25,7 +27,7 @@ export default class App extends Component {
   render() {
     return (
       <View >
-        <Register />
+        <GoogleMap />
       </View>
     );
   }
